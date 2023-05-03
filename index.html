@@ -7,9 +7,14 @@
 <body>
 
 <h1>Hello world!</h1>
-<p>This is the first file in my new Git Repo.</p>
-<p>New change</p>
-
+<p>This is the first file in my git </p>
+<p id = "change">Old change</p>
+<button onclick="myFunction()">Click Here</button>
+<script>
+    function myFunction(){
+        document.getElementById("change").innerHTML="New Change";
+    }
+</script>
 <p>Second line</p>
 <p>Third line</p>
 <div id="container2">This is a new container</div>
